@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+   - name: install
+     yum: 
+       name: /home/builder/rpmbuild/RPMS/x86_64/test_task-0.0.1-0.el7.x86_64.rpm
+
+
+
